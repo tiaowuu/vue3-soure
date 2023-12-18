@@ -1,0 +1,19 @@
+{
+  "name": "vue3-soure",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js reactivity -f esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.19.9",
+    "minimist": "^1.2.8",
+    "vue": "^3.3.12"
+  }
+}
